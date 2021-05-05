@@ -6,23 +6,25 @@ This guide will show you how to create a digital, trunked Raspberry Pi scanner u
 
 My goal with this was to create as close to an all-in-one solution as possible, where there was only one thing to plugin and it is fairly portable.
 
-## Step One Obtain Parts
+## Step One Parts List Shopping Cart
 
 Here are a list of parts you'll need, some of these things can be obtained at Microcenter for lower prices so if you have one near you, check there first.
 
 1. A Raspberry Pi 4 with at least 4 Gb of RAM (8 Gb works too if you'd like): https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X
 2. Raspberry Pi 7 inch touchscreen: https://www.amazon.com/Raspberry-Pi-7-Touchscreen-Display/dp/B0153R2A9I
 3. A high quality power supply, I like this one (you can get one without a switch for $1 less): https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X
-4. A good cooling fan, I used this one as we'll be overclocking the Pi and we will need to keep it cool: https://www.amazon.com/gp/product/B07ZV1LLWK
-5. Optional: The above cooler has a fan with LED's on it, if you don't want to deal with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA 
-6. A case, I used this one because of it's large size which gives plenty of room to move around a do stuff inside: https://www.amazon.com/gp/product/B08VSFZDDT
+4. A good cooling fan, I used this one as we'll be overclocking the Pi and we will need to keep it cool: https://www.amazon.com/gp/product/B07ZV1LLWK 
+5. A case, I used this one because of it's large size which gives plenty of room to move around and route stuff inside: https://www.amazon.com/gp/product/B08VSFZDDT
+6. You'll also need this extra part for that case (choose the one with USB and audio jack): https://smarticase.com/products/usb-and-audio-jack-extender-for-smartipi-touch-pro
 7. An RTL SDR dongle: https://www.amazon.com/NooElec-NESDR-Smart-Enclosure-R820T2-Based/dp/B01HA642SW
-8. You'll also need this extra part for that case (choose the one with USB and audio jack): https://smarticase.com/products/usb-and-audio-jack-extender-for-smartipi-touch-pro
-9. An antenna: https://www.amazon.com/gp/product/B07HLKKHCM
-10. As for sound options, in wanting to keep this as a single unit with one power cord, I chose this USB speaker: https://www.amazon.com/gp/product/B086JXJ1LF. It's size matches the case, the sound quality is decent, and the cord can be hidden behind.  The problem with this speaker is that in combination with the RTL SDR dongle they will draw too much power from the USB bus and you'll get over voltage errors which will also an annoying clicking sound and won't work at all. I got around this buy creating USB power cable that plugs into the 5 volt and ground pins on the Pi and paired it with this splitter: https://www.amazon.com/gp/product/B00NIGO4NM.  If you don't want to go to that much trouble, you could just use a pair of cheap powered computer speakers that plug into the 3.5 mm port, it just means there will be two wall warts rather than one.  Another option is this USB speaker: https://www.amazon.com/gp/product/B075M7FHM1, it will not be very loud and the sound quality is so-so, but it get's the job done and doesn't draw too much power.
-11. MicroSD Card: There are some options here too, but any class 10 or A1/A2 card should work like this one: 
+8. An antenna: https://www.amazon.com/gp/product/B07HLKKHCM
+9. As for sound options, in wanting to keep this as a single unit with one power cord, I chose this USB speaker: https://www.amazon.com/gp/product/B086JXJ1LF. It's size matches the case, the sound quality is decent, and the cord can be hidden behind.  The problem with this speaker is that in combination with the RTL SDR dongle they will draw too much power from the USB bus and you'll get over voltage errors which will also an annoying clicking sound and won't work at all. I got around this buy creating USB power cable that plugs into the 5 volt and ground pins on the Pi and paired it with this splitter: https://www.amazon.com/gp/product/B00NIGO4NM.  If you don't want to go to that much trouble, you could just use a pair of cheap powered computer speakers that plug into the 3.5 mm port, it just means there will be two wall warts rather than one.  Another option is this USB speaker: https://www.amazon.com/gp/product/B075M7FHM1, it will not be very loud and the sound quality is so-so, but it get's the job done and doesn't draw too much power.
+10. MicroSD Card: There are some options here too, but any class 10 or A1/A2 card should work like this one: 
 https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
-12. A USB SD/MicroSD card reader (unless there is one on your PC already, many laptops have them): https://www.amazon.com/Anker-Portable-Reader-RS-MMC-Micro/dp/B006T9B6R2
+11. A USB SD/MicroSD card reader (unless there is one on your PC already, many laptops have them): https://www.amazon.com/Anker-Portable-Reader-RS-MMC-Micro/dp/B006T9B6R2
+12. USB Extension Cables: https://www.amazon.com/gp/product/B01GA1GKYW
+13. Optional: Right angle USB extension cords, these give a cleaner look if you're using the USB speaker: https://www.amazon.com/gp/product/B07CF7243G
+14. Optional: The above cooler has a fan with LED's on it, if you don't want to deal with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA, and you'll need these too: https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY
 
 ## Step Two Install Operating System On Micro SD Card
 
