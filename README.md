@@ -6,7 +6,7 @@ This guide will show you how to create a digital, trunked Raspberry Pi scanner u
 
 My goal with this was to create as close to an all-in-one solution as possible, where there was only one thing to plugin and it is fairly portable.
 
-## Step One Parts List Shopping Cart
+## Step One: Parts List Shopping Cart
 
 Here are a list of parts you'll need, some of these things can be obtained at Microcenter for lower prices so if you have one near you, check there first.
 
@@ -26,7 +26,7 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 13. Optional: Right angle USB extension cords, these give a cleaner look if you're using the USB speaker: https://www.amazon.com/gp/product/B07CF7243G
 14. Optional: The above cooler has a fan with LED's on it, if you don't want to deal with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA, and you'll need these too: https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY
 
-## Step Two Install Operating System On Micro SD Card
+## Step Two: Install Operating System On Micro SD Card
 
 1. Install the Raspbery Pi imager on your computer: https://www.raspberrypi.org/software/
 2. Insert the microSD card in your computer and open Raspberrry Pi Imager
@@ -58,7 +58,7 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 
 12. Save both files take out the card and insert into the Raspberry Pi.
 
-## Step Three Assembly
+## Step Three: Case Assembly
 1. Follow the instructions for assembling the Raspberry Pi, touchscreen here, but see the below exceptions: https://cdn.shopify.com/s/files/1/0793/8029/files/touch_pro_assembly_instructions.pdf?v=1615409778
 2. On Step 4 and 5, skip the red and black wires as they will not be needed.
 3. Skip step 6 as we will be using the extender plate ordered from Smart Pi (number 6 on the parts list above).
