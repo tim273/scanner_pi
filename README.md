@@ -35,16 +35,16 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 8. Go into the folder (if on Linux it's the system-boot folder), and open network-config with a text editor.
 9. Comment out all the lines and add the below lines to the bottom:
 
-    version: 2
-    renderer: networkd
-    wifis:
-      wlan0:
-        dhcp4: true
-        dhcp6: true
-        optional: true
-        access-points:
-          "SSID":
-             password: "PassPhrase"
+       version: 2
+       renderer: networkd
+       wifis:
+         wlan0:
+           dhcp4: true
+           dhcp6: true
+           optional: true
+           access-points:
+             "SSID":
+                password: "PassPhrase"
 
 ## Step Three 
 
