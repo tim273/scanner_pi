@@ -58,5 +58,14 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 
 12. Save both files take out the card and insert into the Raspberry Pi.
 
-## Step Three 
+## Step Three Assembly
+1. Follow the instructions for assembling the Raspberry Pi, touchscreen here, but see the below exceptions: https://cdn.shopify.com/s/files/1/0793/8029/files/touch_pro_assembly_instructions.pdf?v=1615409778
+2. On Step 4 and 5, skip the red and black wires as they will not be needed.
+3. Skip step 6 as we will be using the extender plate ordered from Smart Pi (number 6 on the parts list above).
+4. On step 7 we will be mouting the Raspberry Pi at the inner position (the second image and instructions) and secure the Pi into that position using the standoffs that come with the cooler.  Also make sure the silver part of the ribbon cable faces the white part of the fastener.
+5. Skip step 8, there won't be a camera.
+6. On step 9, I used the adhesive front panel.
+7. On step 11 use the door, but you may wish to drill small holes for air curculation for the fan on the cooler.
+8. Skip step 12-14.
+9. Before step 15 follow the below instructions.
 
