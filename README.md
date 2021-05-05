@@ -28,8 +28,22 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 1. Install the Raspbery Pi imager on your computer: https://www.raspberrypi.org/software/
 2. Insert the microSD card in your computer and open Raspberrry Pi Imager
 3. Click Choose SD Card and the card that is inserted should be the only option, choose that one.
-4. Click Choose OS and scroll down to Ubuntu and click on it, then choose the LTS version of the 64 bit server, for example: "Ubuntu Server 20.04.2 LTS (RPi 3/4/400)" the line under it should read "64-bit server Os with long-term support for arm64 architectures" ![Raspberry Pi Imager](/images/piImager.png) The latest version may be different, but the important part is to choose LTS 64 bit
+4. Click Choose OS and scroll down to Ubuntu and click on it, then choose the LTS version of the 64 bit server, for example: "Ubuntu Server 20.04.2 LTS (RPi 3/4/400)" the line under it should read "64-bit server Os with long-term support for arm64 architectures" ![Raspberry Pi Imager](/images/piImager.png) The latest version may be different, but the important part is to choose LTS 64 bit.
 5. Click the Write button and the OS will be loaded on the SD card.
+6. Once done the imager will say the card can be removed from the reader, click continue and close Raspberry Pi Imager.
+7. Eject the card and reinsert it and if using Windows ignore any warnings that pop up.  
+8. Go into the folder (if on Linux it's the system-boot folder), and open network-config with a text editor.
+9. Comment out all the lines and add the below lines to the bottom:
+    version: 2
+    renderer: networkd
+    wifis:
+      wlan0:
+        dhcp4: true
+        dhcp6: true
+        optional: true
+        access-points:
+          "SSID":
+             password: "PassPhrase"
 
 ## Step Three 
 
