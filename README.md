@@ -33,7 +33,7 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 6. Once done the imager will say the card can be removed from the reader, click continue and close Raspberry Pi Imager.
 7. Eject the card and reinsert it and if using Windows ignore any warnings that pop up.  
 8. Go into the folder (if on Linux it's the system-boot folder), and open network-config with a text editor.
-9. Comment out all the lines and add the below lines to the bottom:
+9. Comment out all the lines and add the below lines to the bottom, be sure to keep the spacing intact, note there are two spaces for the indent:
 
        version: 2
        renderer: networkd
@@ -45,6 +45,14 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
            access-points:
              "SSID":
                 password: "PassPhrase"
+                
+10. Next edit user-data in a text editor and add the following to the bottom (also keeping the spacing intact):
+
+        ## Reboot after cloud-init completes
+        power_state:
+          mode: reboot
+
+11. Save both files take out the card and insert into the Raspberry Pi.
 
 ## Step Three 
 
