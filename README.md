@@ -24,7 +24,7 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 11. A USB SD/MicroSD card reader (unless there is one on your PC already, many laptops have them): https://www.amazon.com/Anker-Portable-Reader-RS-MMC-Micro/dp/B006T9B6R2
 12. USB Extension Cables: https://www.amazon.com/gp/product/B01GA1GKYW
 13. Optional: Right angle USB extension cords, these give a cleaner look if you're using the USB speaker: https://www.amazon.com/gp/product/B07CF7243G
-14. Optional: The above cooler has a fan with LED's on it, if you don't want to deal with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA, and you'll need these too: https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY
+14. Optional: The above cooler (from #4) has a fan with LED's on it, if you don't want with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA, and you'll need these too: https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY
 
 ## Step Two: Install Operating System On Micro SD Card
 
