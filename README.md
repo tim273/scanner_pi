@@ -34,6 +34,7 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 7. Eject the card and reinsert it and if using Windows ignore any warnings that pop up.  
 8. Go into the folder (if on Linux it's the system-boot folder), and open network-config with a text editor.
 9. Comment out all the lines and add the below lines to the bottom:
+    
     version: 2
     renderer: networkd
     wifis:
