@@ -71,5 +71,6 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 9. Before step 15 follow the below instructions.
 
 ### Extra Assembly Steps
-1. Drill a hole in the back of the case for the antenna and mount the cable from parts list #13. ![Raspberry Pi Imager](/images/backCover.jpg)
+1. Drill a hole in the back of the case for the antenna and mount the cable from parts list #13. ![Back Cover](/images/backCover.jpg)
+2. Drill holes in the back panel cover for air circulation and mount it. ![Back Cover Panel](/images/backCoverPanel.jpg)
 
