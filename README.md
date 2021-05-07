@@ -80,4 +80,5 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 6. Plug in the two cables according to the instructions from the case instructions step 15.
 7. Next with plug in one of the USB extension cables (parts list #12), the USB dongle from the keyboard (parts list #14) and the USB splitter which plugs into the USB cable from the plate and the 3.5 mm plug for the audio port from the plate.
 8. Then plug in the RTL SDR dongle from parts list #7) ![RTL SDR Dongle](/images/sdrInside.jpg)
+9. Once all the above are connected, assemble the rest of the case, it will be a tight fit, but it will all fit in there. Then attach the antenna from parts list #8 ![](/images/back.jpg)
 
