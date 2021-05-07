@@ -83,3 +83,6 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 8. Then plug in the RTL SDR dongle from parts list #7) ![RTL SDR Dongle](/images/sdrInside.jpg)
 9. Once all the above are connected, assemble the rest of the case, it will be a tight fit, but it will all fit in there. Then attach the antenna from parts list #8 ![](/images/back.jpg)
 10. If you purchased the right angle USB cables from parts list #15 attach that so it faces the back and plug the speaker into it.  Here's a look at the finished product (if using the USB speaker) ![Front](/images/front.jpg)
+11. At this point you can use velcro to adhere the speaker to the case if you would like.
+
+
