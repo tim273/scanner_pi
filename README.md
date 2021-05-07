@@ -67,9 +67,10 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 4. On step 7 we will be mouting the Raspberry Pi at the inner position (the second image and instructions) and secure the Pi into that position using the standoffs that come with the cooler.  Also make sure the silver part of the ribbon cable faces the white part of the fastener.
 5. Skip step 8, there won't be a camera.
 6. On step 9, I used the adhesive front panel.
-7. On step 11 use the door, but you may wish to drill small holes for air curculation for the fan on the cooler.
-8. Skip step 12-14.
-9. Before step 15 follow the below instructions.
+7. If you purchased a USB speaker, you may want to run the cord under the bottom of the case (between the base and top), do this before step 10.
+8. On step 11 use the door, but you may wish to drill small holes for air curculation for the fan on the cooler.
+9. Skip step 12-14.
+10. Before step 15 follow the below instructions.
 
 ### Extra Assembly Steps
 1. Drill a hole in the back of the case for the antenna and mount the cable from parts list #13. ![Back Cover](/images/backCover.jpg)
@@ -81,4 +82,4 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 7. Next with plug in one of the USB extension cables (parts list #12), the USB dongle from the keyboard (parts list #14) and the USB splitter which plugs into the USB cable from the plate and the 3.5 mm plug for the audio port from the plate.
 8. Then plug in the RTL SDR dongle from parts list #7) ![RTL SDR Dongle](/images/sdrInside.jpg)
 9. Once all the above are connected, assemble the rest of the case, it will be a tight fit, but it will all fit in there. Then attach the antenna from parts list #8 ![](/images/back.jpg)
-
+10. If you purchased the right angle USB cables from parts list #15 attach that so it faces the back and plug the speaker into it.  Here's a look at the finished product (if using the USB speaker) ![Front](/images/front.jpg)
