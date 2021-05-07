@@ -24,8 +24,9 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 11. A USB SD/MicroSD card reader (unless there is one on your PC already, many laptops have them): https://www.amazon.com/Anker-Portable-Reader-RS-MMC-Micro/dp/B006T9B6R2
 12. USB Extension Cables: https://www.amazon.com/gp/product/B01GA1GKYW
 13. An SMA extension cable: https://www.amazon.com/gp/product/B00COJWKGC
-14. Optional: Right angle USB extension cords, these give a cleaner look if you're using the USB speaker: https://www.amazon.com/gp/product/B07CF7243G
-15. Optional: The above cooler (from #4) has a fan with LED's on it, if you don't want with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA, and you'll need these too: https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY
+14. A keyboard: https://www.amazon.com/gp/product/B07VR5Y39T
+15. Optional: Right angle USB extension cords, these give a cleaner look if you're using the USB speaker: https://www.amazon.com/gp/product/B07CF7243G
+16. Optional: The above cooler (from #4) has a fan with LED's on it, if you don't want with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA, and you'll need these too: https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY
 
 ## Step Two: Install Operating System On Micro SD Card
 
@@ -73,6 +74,10 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 ### Extra Assembly Steps
 1. Drill a hole in the back of the case for the antenna and mount the cable from parts list #13. ![Back Cover](/images/backCover.jpg)
 2. Drill holes in the back panel cover for air circulation and mount it. ![Back Cover Panel](/images/backCoverPanel.jpg)
-3. Install the cooler fan from parts list #4 and optional fan (parts list #15), note how the stand offs that come with the coller are used to screw in the Raspberry Pi and the screws that came with the case screw the cooler into the stand offs. (opposite from the instructions for both).   ![Fan Pins and Stand Offs](/images/fanPins.jpg)
+3. Install the cooler fan from parts list #4 and optional fan (parts list #16), note how the stand offs that come with the coller are used to screw in the Raspberry Pi and the screws that came with the case screw the cooler into the stand offs. (opposite from the instructions for both).   ![Fan Pins and Stand Offs](/images/fanPins.jpg)
 4. If you are using the USB Speaker from parts list 9 (the first one) that uses too much power, then I created the cord in the below picture, I purchased these: https://www.amazon.com/gp/product/B081JGZK14 and soldered a red and back juper wire on to the plus/minus pins of the USB (the two outer ones) ![USB Pin OUt](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpinouts.ru%2Fvisual%2FUSB.jpg&f=1&nofb=1) and plugged them into a 5v pin and ground: ![Inside One](/images/insideOne.jpg) ![Raspberry Pi Pinout](https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png)
+5. As you can see from the image above, how to add in the plate from parts list #6 which I plugged into the USB splitter from parts list #9 which is wrapped around the cooling fan.
+6. Plug in the two cables according to the instructions from the case instructions step 15.
+7. Next with plug in one of the USB extension cables (parts list #12), the USB dongle from the keyboard (parts list #14) and the USB splitter which plugs into the USB cable from the plate and the 3.5 mm plug for the audio port from the plate.
+8. Then plug in the RTL SDR dongle from parts list #7) ![RTL SDR Dongle](/images/sdrInside.jpg)
 
