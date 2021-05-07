@@ -23,8 +23,9 @@ Here are a list of parts you'll need, some of these things can be obtained at Mi
 https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 11. A USB SD/MicroSD card reader (unless there is one on your PC already, many laptops have them): https://www.amazon.com/Anker-Portable-Reader-RS-MMC-Micro/dp/B006T9B6R2
 12. USB Extension Cables: https://www.amazon.com/gp/product/B01GA1GKYW
-13. Optional: Right angle USB extension cords, these give a cleaner look if you're using the USB speaker: https://www.amazon.com/gp/product/B07CF7243G
-14. Optional: The above cooler (from #4) has a fan with LED's on it, if you don't want with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA, and you'll need these too: https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY
+13. An SMA extension cable: https://www.amazon.com/gp/product/B00COJWKGC
+14. Optional: Right angle USB extension cords, these give a cleaner look if you're using the USB speaker: https://www.amazon.com/gp/product/B07CF7243G
+15. Optional: The above cooler (from #4) has a fan with LED's on it, if you don't want with that you can get this fan as a replacement: https://www.amazon.com/gp/product/B00NEMGCIA, and you'll need these too: https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY
 
 ## Step Two: Install Operating System On Micro SD Card
 
@@ -68,4 +69,7 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 7. On step 11 use the door, but you may wish to drill small holes for air curculation for the fan on the cooler.
 8. Skip step 12-14.
 9. Before step 15 follow the below instructions.
+
+### Extra Assembly Steps
+1. Drill a hole in the back of the case for the antenna and mount the cable from parts list #13. ![Raspberry Pi Imager](/images/backCover.jpg)
 
