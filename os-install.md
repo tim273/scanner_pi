@@ -43,12 +43,14 @@
 
         sudo reboot
         
-3. Once the Pi has rebooted a login screen will come up, click on the Ubuntu user, but before entering the password, click on the the gear icon in the bottom right corner and choose Openbox, then enter your password and hit enter.
-4. Once logged in, the screen will be blank with just a cursor, this is normal as Openbox is designed this way.  Right clicking will bring up a menu.
-5. Next SSH into the Pi again and edit the following file:
+## Login and Set Up Auto Login
+
+1. Once the Pi has rebooted a login screen will come up, click on the Ubuntu user, but before entering the password, click on the the gear icon in the bottom right corner and choose Openbox, then enter your password and hit enter.
+2. Once logged in, the screen will be blank with just a cursor, this is normal as Openbox is designed this way.  Right clicking will bring up a menu.
+3. Next SSH into the Pi again and edit the following file:
 
         sudo nano /etc/gdm3/custom.conf
-6. Find the following two lines and uncomment them and change user1 to ubuntu and then save the file (Ctrl+O, Enter, Ctrl+X)
+4. Find the following two lines and uncomment them and change user1 to ubuntu and then save the file (Ctrl+O, Enter, Ctrl+X)
 
         AutomaticLoginEnable = true
         AutomaticLogin = ubuntu
