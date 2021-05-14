@@ -37,11 +37,11 @@
 ## Install Software
 1. Next install the necessary software, this will take some time, but stay next to your computer as a pop up will come up asking which display manager to use. 
 
-        sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol
+       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol
 
 2. When the pop up comes up choose gdm3, tab to Ok and hit enter.  At this point, wait for the install to finish and then reboot.
 
-        sudo reboot
+       sudo reboot
         
 ## Login and Set Up Auto Login
 
@@ -52,8 +52,12 @@
         sudo nano /etc/gdm3/custom.conf
 4. Find the following two lines and uncomment them and change user1 to ubuntu and then save the file (Ctrl+O, Enter, Ctrl+X)
 
-        AutomaticLoginEnable = true
-        AutomaticLogin = ubuntu
+       AutomaticLoginEnable = true
+       AutomaticLogin = ubuntu
 
- 
+## Install Java
+1. SSH into the Pi and download Java and install it:
+
+       wget https://download.bell-sw.com/java/15.0.1+9/bellsoft-jdk15.0.1+9-linux-aarch64-full.deb
+       sudo apt install ./bellsoft-jdk15.0.1+9-linux-aarch64-full.deb
         
