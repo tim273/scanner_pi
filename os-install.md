@@ -60,4 +60,24 @@
 
        wget https://download.bell-sw.com/java/15.0.1+9/bellsoft-jdk15.0.1+9-linux-aarch64-full.deb
        sudo apt install ./bellsoft-jdk15.0.1+9-linux-aarch64-full.deb
+       
+2. Typing "java -version" should print the following:
+
+       ubuntu@ubuntu:~$ java -version
+       openjdk version "15.0.1" 2020-10-20
+       OpenJDK Runtime Environment (build 15.0.1+9)
+       OpenJDK 64-Bit Server VM (build 15.0.1+9, mixed mode)
+
+4. Next set the JAVA_HOME variable, edit /etc/profile
+
+       sudo nano /etc/profile
+       
+4. Then edit the file to look like this which will be the third line of the file right after the comments:
+
+       # /etc/profile: system-wide .profile file for the Bourne shell (sh(1))
+       # and Bourne compatible shells (bash(1), ksh(1), ash(1), ...).
+       export JAVA_HOME=/usr/lib/jvm/bellsoft-java15-full-aarch64
+       
+5. Save the file and then reboot.
+
         
