@@ -86,3 +86,5 @@ https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 11. At this point you can use velcro to adhere the speaker to the case if you would like.
 
 The next step is the Operating system configuration and software install.
+
+[Operating System and Software Install](os-install.md)
