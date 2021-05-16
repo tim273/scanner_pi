@@ -6,7 +6,7 @@ This guide will show you how to create a digital, trunked Raspberry Pi scanner u
 
 My goal with this was to create as close to an all-in-one solution as possible, where there was only one thing to plugin and it is fairly portable.
 
-## Step One: Parts List Shopping Cart
+## Step One: Parts List
 
 Here are a list of parts you'll need, some of these things can be obtained at Microcenter for lower prices so if you have one near you, check there first.
 
