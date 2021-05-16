@@ -22,7 +22,7 @@ Here are a list of parts you'll need, some of these things can be obtained at Mi
 10. MicroSD Card: There are some options here too, but any class 10 or A1/A2 card should work like this one: 
 https://www.amazon.com/SanDisk-128GB-Extreme-microSD-Adapter/dp/B06XWMQ81P
 11. A USB SD/MicroSD card reader (unless there is one on your PC already, many laptops have them): https://www.amazon.com/Anker-Portable-Reader-RS-MMC-Micro/dp/B006T9B6R2
-12. USB Extension Cables: https://www.amazon.com/gp/product/B01GA1GKYW
+12. USB Extension Cables: https://www.amazon.com/Your-Cable-Store-USB-Extension/dp/B01IG5XZHK
 13. An SMA extension cable: https://www.amazon.com/gp/product/B00COJWKGC
 14. A keyboard: https://www.amazon.com/gp/product/B07VR5Y39T
 15. Optional: Right angle USB extension cords, these give a cleaner look if you're using the USB speaker: https://www.amazon.com/gp/product/B07CF7243G
