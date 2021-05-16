@@ -2,9 +2,11 @@
 
 ## Introduction
 
-This guide will show you how to create a digital, trunked Raspberry Pi scanner using an RTL SDR and SDR Trunk software.  Top of the line digital scanners cost upwards of $500-$600, this project will cost about half of that with a lot of flexability in how it can be implmented. 
+This guide will show you how to create a digital, trunked Raspberry Pi 4 scanner using an RTL SDR and SDR Trunk software.  Top of the line digital scanners cost upwards of $500-$600, this project will cost about half of that with a lot of flexability in how it can be implmented. 
 
 My goal with this was to create as close to an all-in-one solution as possible, where there was only one thing to plugin and it is fairly portable.
+
+Note: this will NOT work with anything less than a Raspberry Pi 4 with 4 Gb of RAM.  The lower Pi's don't have enough "horse power" (CPU or RAM) for this application
 
 ## Step One: Parts List
 
