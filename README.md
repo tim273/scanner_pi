@@ -6,7 +6,7 @@ This guide will show you how to create a digital, trunked Raspberry Pi 4 scanner
 
 My goal with this was to create as close to an all-in-one solution as possible, where there was only one thing to plugin and it is fairly portable.
 
-Note: this will NOT work with anything less than a Raspberry Pi 4 with 4 Gb of RAM.  The lower Pi's don't have enough "horse power" (CPU or RAM) for this application
+Note: this will NOT work with anything less than a Raspberry Pi 4 with 4 Gb of RAM.  The lower Pi's don't have enough "horse power" (CPU or RAM) for this application.
 
 ## Step One: Parts List
 
