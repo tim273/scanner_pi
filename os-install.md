@@ -56,6 +56,15 @@
        AutomaticLoginEnable = true
        AutomaticLogin = ubuntu
        
+5. Add the file Xdefaults.
+
+       cd
+       nano .Xdefaults
+
+6. And add the following into .Xdefaults.
+
+       XTerm*geometry: 800x400
+       
 ## Set Up RTL SDR Rules
 
 1. Create the following file.
@@ -114,4 +123,13 @@
 
        wget https://github.com/DSheirer/jmbe/releases/download/v1.0.7b/jmbe-creator-linux-x86_64-v1.0.7b.zip
        unzip jmbe-creator-linux-x86_64-v1.0.7b.zip
+       
+6. After unzipping it we're going to use our Java version rather than the one that comes with it and then build the library.
+
+       cd creator-linux-x86_64-v1.0.7b/bin
+       rm java
+       ln -s /usr/bin/java java
+       ./creator
+       
+7. 
        
