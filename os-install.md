@@ -37,7 +37,7 @@
 ## Install Software
 1. Next install the necessary software, this will take some time, but stay next to your computer as a pop up will come up asking which display manager to use. 
 
-       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol rtl-sdr
+       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol rtl-sdr git
 
 2. When the pop up comes up choose gdm3, tab to Ok and hit enter.  At this point, wait for the install to finish and then reboot.
 
@@ -91,4 +91,12 @@
        
 5. Save the file and then reboot.
 
+## Install SDR Trunk
+1. Clone the SDR Trunk application:
+
+       git clone https://github.com/DSheirer/sdrtrunk.git
+       cd sdrtrunk
         
+2. Build the application
+
+       ./gradlew clean build
