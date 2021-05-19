@@ -12,7 +12,7 @@
 
         sudo apt install net-tools
         
-3. This will allow you to determine the IP address, to do this type ifconfig and the following will return:
+3. This will allow you to determine the IP address, to do this type ifconfig and the following will return.
 
         lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
                 inet 127.0.0.1  netmask 255.0.0.0
@@ -32,7 +32,7 @@
                 TX packets 2153  bytes 207662 (207.6 KB)
                 TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
                 
-4. Where it says "inet" is the ip address of your Pi, from now you can SSH to your pi from your PC.  If you're on Windows, you can use Putty to do this: https://bitlaunch.io/blog/how-to-connect-to-ssh-with-putty/
+4. Where it says "inet" is the ip address of your Pi, from now you can SSH to your pi from your PC.  If you're on Windows, you can use Putty to do this. https://bitlaunch.io/blog/how-to-connect-to-ssh-with-putty/
 
 ## Install Software
 1. Next install the necessary software, this will take some time, but stay next to your computer as a pop up will come up asking which display manager to use. 
@@ -47,11 +47,11 @@
 
 1. Once the Pi has rebooted a login screen will come up, click on the Ubuntu user, but before entering the password, click on the the gear icon in the bottom right corner and choose Openbox, then enter your password and hit enter.
 2. Once logged in, the screen will be blank with just a cursor, this is normal as Openbox is designed this way.
-3. Next SSH into the Pi again and edit the following file:
+3. Next SSH into the Pi again and edit the following file.
 
         sudo nano /etc/gdm3/custom.conf
         
-4. Find the following two lines and uncomment them and change user1 to ubuntu and then save the file (Ctrl+O, Enter, Ctrl+X)
+4. Find the following two lines and uncomment them and change user1 to ubuntu and then save the file (Ctrl+O, Enter, Ctrl+X).
 
        AutomaticLoginEnable = true
        AutomaticLogin = ubuntu
@@ -67,23 +67,23 @@
        SUBSYSTEM=="usb", ATTRS{idVendor}=="0bda", ATTRS{idProduct}=="2838", GROUP="adm", MODE="0666", SYMLINK+="rtl_sdr"
 
 ## Install Java
-1. SSH into the Pi and download Java and install it:
+1. SSH into the Pi and download Java and install it.
 
        wget https://download.bell-sw.com/java/15.0.1+9/bellsoft-jdk15.0.1+9-linux-aarch64-full.deb
        sudo apt install ./bellsoft-jdk15.0.1+9-linux-aarch64-full.deb
        
-2. Typing "java -version" should print the following:
+2. Typing "java -version" should print the following.
 
        ubuntu@ubuntu:~$ java -version
        openjdk version "15.0.1" 2020-10-20
        OpenJDK Runtime Environment (build 15.0.1+9)
        OpenJDK 64-Bit Server VM (build 15.0.1+9, mixed mode)
 
-4. Next set the JAVA_HOME variable, edit /etc/profile
+4. Next set the JAVA_HOME variable, edit /etc/profile.
 
        sudo nano /etc/profile
        
-4. Then edit the file to look like this which will be the third line of the file right after the comments:
+4. Then edit the file to look like this which will be the third line of the file right after the comments.
 
        # /etc/profile: system-wide .profile file for the Bourne shell (sh(1))
        # and Bourne compatible shells (bash(1), ksh(1), ash(1), ...).
@@ -92,11 +92,23 @@
 5. Save the file and then reboot.
 
 ## Install SDR Trunk
-1. Clone the SDR Trunk application:
+1. Clone the SDR Trunk application.
 
        git clone https://github.com/DSheirer/sdrtrunk.git
        cd sdrtrunk
         
-2. Build the application
+2. Build the application.
 
        ./gradlew clean build
+       
+3. Once finished copy the built zip file to your home directory.
+
+       cp build/distributions/sdr-trunk-0.5.0-alpha6.zip ~
+       
+4. Then go to your home directory and upzip it.
+
+       cd
+       unzip sdr-trunk-0.5.0-alpha6.zip
+       
+5. Next 
+       
