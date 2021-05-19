@@ -131,5 +131,21 @@
        ln -s /usr/bin/java java
        ./creator
        
-7. 
+7. On the Rasperry Pi (not in SSH) right click and choose terminal emulator and then start SDR Trunk, this will be a test run.
+   
+       cd sdr-trunk-0.5.0-alpha6/bin
+       ./sdr-trunk
+       
+8. Once the application has started, drag it over until you can see the top right corner and click the maximize button which will resize it to fit the screen, then click View and Disable Spectrum & Waterfall
+9. Then click View and User Preferences and under Decoder choose JMBE Audio Library, click on Select... click on Home in the left panel, double click creator-linux-x86_64-v1.0.7b and choose jmbe-1.0.7b.jar and click Open.
+10. At this point you should have a working application.  You can exit out of the application for now.
+
+## SDR Trunk Setup
+
+I find this next part I find easier to do on a PC and then tranfer over to the Pi since the Pi is slow and the screen is very small. So to install SDR Trunk on your PC go to https://github.com/DSheirer/sdrtrunk/releases choose the latest release and find the Asset link and choose the one for your system.  Unzip it go the bin file an choose sdr-trunk to start it. 
+
+1. Open SDR trunk, click on View and Playlist editor and then click on the Radio Reference tab.
+2. Click on Login and enter your Radio Reference username and password.  If you do not have one, you can sign up here: https://register.radioreference.com/
+3. Once logged in, choose your country, state and county.
+       
        
