@@ -37,7 +37,7 @@
 ## Install Software
 1. Next install the necessary software, this will take some time, but stay next to your computer as a pop up will come up asking which display manager to use. 
 
-       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol
+       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol rtl-sdr
 
 2. When the pop up comes up choose gdm3, tab to Ok and hit enter.  At this point, wait for the install to finish and then reboot.
 
@@ -50,10 +50,21 @@
 3. Next SSH into the Pi again and edit the following file:
 
         sudo nano /etc/gdm3/custom.conf
+        
 4. Find the following two lines and uncomment them and change user1 to ubuntu and then save the file (Ctrl+O, Enter, Ctrl+X)
 
        AutomaticLoginEnable = true
        AutomaticLogin = ubuntu
+       
+## Set Up RTL SDR Rules
+
+1. Create the following file.
+
+       sudo nano /etc/udev/rules.d/20.rtlsdr.rules
+
+2. Add the following to it.
+
+       SUBSYSTEM=="usb", ATTRS{idVendor}=="0bda", ATTRS{idProduct}=="2838", GROUP="adm", MODE="0666", SYMLINK+="rtl_sdr"
 
 ## Install Java
 1. SSH into the Pi and download Java and install it:
