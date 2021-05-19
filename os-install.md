@@ -110,5 +110,8 @@
        cd
        unzip sdr-trunk-0.5.0-alpha6.zip
        
-5. Next 
+5. Next download the audio library and unzip it.
+
+       wget https://github.com/DSheirer/jmbe/releases/download/v1.0.7b/jmbe-creator-linux-x86_64-v1.0.7b.zip
+       unzip jmbe-creator-linux-x86_64-v1.0.7b.zip
        
