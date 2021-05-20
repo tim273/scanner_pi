@@ -37,7 +37,7 @@
 ## Install Software
 1. Next install the necessary software, this will take some time, but stay next to your computer as a pop up will come up asking which display manager to use. 
 
-       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol rtl-sdr git
+       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol rtl-sdr git alsamixergui
 
 2. When the pop up comes up choose gdm3, tab to Ok and hit enter.  At this point, wait for the install to finish and then reboot.
 
@@ -152,3 +152,22 @@ I find this next part I find easier to do on a PC and then tranfer over to the P
 6. On the Channels tab click on the new channel list, click Auto-Start, choose your alias listand on Decoder change Max Traffic Channels to 2.  You may experiment with 3 as well. ![Channel List](/images/channelList.png)
 7. Next click on the Aliases tab.  There's a couple options here, if you chose talk groups from a specific county or department and you don't want to hear other traffic, create a omission list of talkgroups you don't want to listen to.  To do this click on New in the right side, give the alias a name of Omitted.  Turn off the listen tab and then in the Identifiers section click the Add Identifier dropdown and choose APCO-25 and Talkgroup range. ![Aliases One](/images/aliases1.png)
 8. Then change the range from 0 to 65535 and click Save.  Once you have clicked Save the application will appear to freeze, but be patient and it will respond again after a few minutes. ![Aliases One](/images/aliases2.png)
+9. As an optional step, there are icons for police, fire, ambulance and others along with priorities and colors, if you wish you can assign these to the different aliases or just leave them as is.
+10. Next we are going to copy the configuration to the Raspberry Pi using scp (secure copy) this copies files over SSH.  If you are using Windows, Putty has an SCP client: https://it.cornell.edu/managed-servers/transfer-files-using-putty
+
+        scp SDRTrunk/playlist/default.xml ubuntu@192.168.1.106:/home/ubuntu/SDRTrunk/playlist
+        
+11. Once copied, go back to the Rasbperry Pi and right click to open a terminal and type the following commands.
+
+        cd sdr-trunk-0.5.0-alpha6/bin
+        ./sdr-trunk
+        
+12. At this point you should have a working SDR trunk application.  If you are using powered computer speakers, connect them to the 3.5 mm port and you should have sound. If you purchased a USB speaker go back to the terminal by typing Alt-Tab and then open a new terminal tab by typing Ctrl+Shift+T then type the following.
+
+        pavucontrol
+        
+13. This will open a new window click on the Output Devices tab and click the green button to the right of USB2.0 Device Analog Stero and this should enable sound for the USB speaker.  The sound adjustment for this application is not very good so to adjust the sound close this application and type the following.
+
+        alsamixer
+        
+14. This will bring up a command line volume control.  Type F6 (the function keys at the top of your keyboard) and choose USB2.0 Device then you can use the up and down arrows to adjust the volume.  We will be adding updates to all of this to make it more automatic.
