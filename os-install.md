@@ -146,6 +146,5 @@ I find this next part I find easier to do on a PC and then tranfer over to the P
 
 1. Open SDR trunk, click on View and Playlist editor and then click on the Radio Reference tab.
 2. Click on Login and enter your Radio Reference username and password.  If you do not have one, you can sign up here: https://register.radioreference.com/
-3. Once logged in, choose your country, state and county.
-       
+3. Once logged in, choose your country, state and county.  ![Playlist Editor](/images/playlistEditorRadioReferenceChooseCounty.png)
        
