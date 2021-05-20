@@ -146,5 +146,6 @@ I find this next part I find easier to do on a PC and then tranfer over to the P
 
 1. Open SDR trunk, click on View and Playlist editor and then click on the Radio Reference tab.
 2. Click on Login and enter your Radio Reference username and password.  If you do not have one, you can sign up here: https://register.radioreference.com/
-3. Once logged in, choose your country, state and county sort by county in the System View tab and choose your county. Click on New Alias List and create an alias and then choose it in the drop down. ![Playlist Editor](/images/playlistEditor1.png)
+3. Once logged in, choose your country, state and county.  Choose the system for your area, in the case of Minnesota the entire state uses Allied Radio Matrix for Emergency Response (ARMER), refer to Radio Reference to determine this for your area.  In the System View tab, sort by county choose your county. Click on New Alias List and create an alias and then choose it in the drop down. ![Playlist Editor System View](/images/playlistEditorSystemView.png)
+4. Click on the Talkgroup View tab choose the alias you created in the last tab then under category choose the talk groups you wish to monitor.  In the case of Minnesota, you can choose by county or you can choose (All Talkgroups) if you wish to monitor all agencies state-wide that use this system.  Then click Import All Talkgroups. ![Playlist Editor Talkgroup View](/images/playlistEditorTalkgroupView.png)
        
