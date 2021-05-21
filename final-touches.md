@@ -20,3 +20,7 @@ This is the last set of steps for auto start, sound options and using the keyboa
        /home/ubuntu/sdr-trunk-0.5.0-alpha6/bin/sdr-trunk &
 
 3. Then reboot and a terminal and SDR Trunk should start up automatically.
+
+## Sound Configuration
+
+If you are using external speakers plugged into the 3.5 mm port skip this section
