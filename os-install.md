@@ -37,7 +37,7 @@
 ## Install Software
 1. Next install the necessary software, this will take some time, but stay next to your computer as a pop up will come up asking which display manager to use. 
 
-       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol rtl-sdr git alsamixergui unclutter
+       sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol rtl-sdr git alsamixergui unclutter triggerhappy
 
 2. When the pop up comes up choose gdm3, tab to Ok and hit enter.  At this point, wait for the install to finish and then reboot.
 
