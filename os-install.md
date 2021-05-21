@@ -171,3 +171,7 @@ I find this next part I find easier to do on a PC and then tranfer over to the P
         alsamixer
         
 14. This will bring up a command line volume control.  Type F6 (the function keys at the top of your keyboard) and choose USB2.0 Device then you can use the up and down arrows to adjust the volume.  We will be adding updates to all of this to make it more automatic.
+
+The last part will be the final steps to get it to start up automatically and sound/screen options.
+
+[Final Steps](final-touches.md)
