@@ -157,20 +157,25 @@ I find this next part I find easier to do on a PC and then tranfer over to the P
 
         scp SDRTrunk/playlist/default.xml ubuntu@192.168.1.106:/home/ubuntu/SDRTrunk/playlist
         
-11. Once copied, go back to the Rasbperry Pi and right click to open a terminal and type the following commands.
+11. SSH into the Raspberry Pi and edit/create the below file and add the following line to it.
+
+        nano ~/SDRTrunk.properties
+        spectral.display.enabled=false
+      
+12. Once copied, go back to the Rasbperry Pi and right click to open a terminal and type the following commands.
 
         cd sdr-trunk-0.5.0-alpha6/bin
         ./sdr-trunk
         
-12. At this point you should have a working SDR trunk application.  If you are using powered computer speakers, connect them to the 3.5 mm port and you should have sound. If you purchased a USB speaker go back to the terminal by typing Alt-Tab and then open a new terminal tab by typing Ctrl+Shift+T then type the following.
+13. At this point you should have a working SDR trunk application.  If you are using powered computer speakers, connect them to the 3.5 mm port and you should have sound. If you purchased a USB speaker go back to the terminal by typing Alt-Tab and then open a new terminal tab by typing Ctrl+Shift+T then type the following.
 
         pavucontrol
         
-13. This will open a new window click on the Output Devices tab and click the green button to the right of USB2.0 Device Analog Stero and this should enable sound for the USB speaker.  The sound adjustment for this application is not very good so to adjust the sound close this application and type the following.
+14. This will open a new window click on the Output Devices tab and click the green button to the right of USB2.0 Device Analog Stero and this should enable sound for the USB speaker.  The sound adjustment for this application is not very good so to adjust the sound close this application and type the following.
 
         alsamixer
         
-14. This will bring up a command line volume control.  Type F6 (the function keys at the top of your keyboard) and choose USB2.0 Device then you can use the up and down arrows to adjust the volume.  We will be adding updates to all of this to make it more automatic.
+15. This will bring up a command line volume control.  Type F6 (the function keys at the top of your keyboard) and choose USB2.0 Device then you can use the up and down arrows to adjust the volume.  We will be adding updates to all of this to make it more automatic.
 
 The last part will be the final steps to get it to start up automatically and sound/screen options.
 
