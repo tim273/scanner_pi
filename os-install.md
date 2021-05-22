@@ -7,6 +7,8 @@ https://www.digitalocean.com/community/tutorials/an-introduction-to-the-linux-te
 
 https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
 
+The two nano commands we'll mainly use are Ctrl+o to save and Ctrl+x to exit.
+
 
 ## Update and Set Up SSH
 
