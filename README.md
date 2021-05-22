@@ -10,10 +10,10 @@ Note: this will NOT work with anything less than a Raspberry Pi 4 with 4 Gb of R
 
 ## Step One: Parts List
 
-Here are a list of parts you'll need, some of these things can be obtained at Microcenter for lower prices so if you have one near you, check there first.
+Here are a list of parts you'll need, some of these things can be obtained at Microcenter for lower prices so if you have one near you, check there first.  One option is a kit which will give you more than you need, but will cover items 1, 3, 10 and possibly 11.  It may be a little more cost effective. https://www.microcenter.com/product/615270/canakit-raspberry-pi-4-starter-max-kit-(4gb-ram)
 
-1. A Raspberry Pi 4 with at least 4 Gb of RAM (8 Gb works too if you'd like): https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X
-2. Raspberry Pi 7 inch touchscreen: https://www.amazon.com/Raspberry-Pi-7-Touchscreen-Display/dp/B0153R2A9I
+1. A Raspberry Pi 4 with at least 4 Gb of RAM (8 Gb works too if you'd like): https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X or Microcenter: https://www.microcenter.com/product/609038/raspberry-pi-4-model-b-4gb-ddr4
+2. Raspberry Pi 7 inch touchscreen: https://www.amazon.com/Raspberry-Pi-7-Touchscreen-Display/dp/B0153R2A9I or Microcenter: https://www.microcenter.com/product/613535/raspberry-pi-7-touch-screen-lcd
 3. A high quality power supply, I like this one (you can get one with a switch for $1 more): https://www.amazon.com/CanaKit-Raspberry-Power-Supply-USB-C/dp/B07TYQRXTK or with switch: https://www.amazon.com/CanaKit-Raspberry-Power-Supply-PiSwitch/dp/B07TSFYXBC
 4. A good cooling fan, I used this one as we'll be overclocking the Pi and we will need to keep it cool: https://www.amazon.com/gp/product/B07ZV1LLWK 
 5. A case, I used this one because of it's large size which gives plenty of room to move around and route stuff inside: https://smarticase.com/collections/all-products/products/smartipi-touch-pro (choose the large size).  You can also add on the external micro SD card access, but this is optional.
