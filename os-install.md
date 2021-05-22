@@ -4,6 +4,7 @@
 If you've never used a Linux terminal, you might want to take a little time to read the next couple of articles just to familiarize with the linux terminal and nano, the file editor.  The commands being used will be pretty basic, but it's good to get a sense of how to use the terminal.
 
 https://www.digitalocean.com/community/tutorials/an-introduction-to-the-linux-terminal
+
 https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
 
 
