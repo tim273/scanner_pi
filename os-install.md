@@ -34,12 +34,22 @@
                 
 4. Where it says "inet" is the ip address of your Pi, from now you can SSH to your pi from your PC.  If you're on Windows, you can use Putty to do this. https://bitlaunch.io/blog/how-to-connect-to-ssh-with-putty/
 
-## Install Software
+## Install Software and Overclock
 1. Next install the necessary software, this will take some time, but stay next to your computer as a pop up will come up asking which display manager to use. 
 
        sudo apt install xorg openbox suckless-tools terminator lxpanel thunar lightdm pavucontrol rtl-sdr git alsamixergui unclutter triggerhappy
 
-2. When the pop up comes up choose gdm3, tab to Ok and hit enter.  At this point, wait for the install to finish and then reboot.
+2. When the pop up comes up choose gdm3, tab to Ok and hit enter.  At this point, wait for the install to finish.
+3. As an optional step we can overclock the Pi so it will perform better.  Only do this if you purchased and installed the CPU fan otherwise the Pi will overheat and may become unstable.  Edit the following file.
+
+       sudo nano /boot/firmware/config.txt
+       
+4. Under the section called [pi4] but before the next section, add this.
+
+       over_voltage=6
+       arm_freq=2000
+       
+5. Save the file and reboot.
 
        sudo reboot
         
