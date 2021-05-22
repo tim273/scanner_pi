@@ -61,4 +61,27 @@ There are two parts to the next section, the first is controlling the volume wit
 
 ### Turning on and off the screen
 
+1. SSH into your Pi and edit the following file.
 
+       sudo nano /etc/triggerhappy/triggers.d/backlight.conf
+       
+2. Add the following to it.
+
+       KEY_COMPOSE     1      /home/ubuntu/turnOffBacklight.sh
+       KEY_BACK        1      /home/ubuntu/turnOnBacklight.sh
+       
+3. Then edit the following file and add the following line to it.
+
+       nano ~/turnOffBacklight.sh
+       sudo -E sh -c 'echo 1 > /sys/class/backlight/rpi_backlight/bl_power'
+    
+4. Edit the following file and add the following line to it.
+
+       nano ~/turnOnBacklight.sh
+       sudo -E sh -c 'echo 0 > /sys/class/backlight/rpi_backlight/bl_power'
+
+5. Then make both executable.
+
+       chmod +x ~/turnO*
+       
+6. Then reboot to make the change stick.
