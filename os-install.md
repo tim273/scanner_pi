@@ -55,6 +55,8 @@
         
 ## Login and Set Up Auto Login
 
+Before starting on this you may want to familiarize yourself with nano, take some time to read this: https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
+
 1. Once the Pi has rebooted a login screen will come up, click on the Ubuntu user, but before entering the password, click on the the gear icon in the bottom right corner and choose Openbox, then enter your password and hit enter.
 2. Once logged in, the screen will be blank with just a cursor, this is normal as Openbox is designed this way.
 3. Next SSH into the Pi again and edit the following file.
