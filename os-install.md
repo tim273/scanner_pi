@@ -1,6 +1,12 @@
 
 # Operating System and Software Install
 
+If you've never used a Linux terminal, you might want to take a little time to read the next couple of articles just to familiarize with the linux terminal and nano, the file editor.  The commands being used will be pretty basic, but it's good to get a sense of how to use the terminal.
+
+https://www.digitalocean.com/community/tutorials/an-introduction-to-the-linux-terminal
+https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
+
+
 ## Update and Set Up SSH
 
 1. Now that the case has been assembled and the OS is installed on the card, it's time to boot up for the first time.  Plug in and allow the Pi to boot up and you will see a log in prompt, but do not log in yet as it is setting up WiFi, wait until it reboots first and then log in with username ubuntu and password ubuntu. It will prompt you to change your password at this point. Once this is done do an update. You can use the small keyboard for this, but soon we will ssh to make this eaiser.
@@ -54,8 +60,6 @@
        sudo reboot
         
 ## Login and Set Up Auto Login
-
-Before starting on this you may want to familiarize yourself with nano, take some time to read this: https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
 
 1. Once the Pi has rebooted a login screen will come up, click on the Ubuntu user, but before entering the password, click on the the gear icon in the bottom right corner and choose Openbox, then enter your password and hit enter.
 2. Once logged in, the screen will be blank with just a cursor, this is normal as Openbox is designed this way.
