@@ -37,4 +37,28 @@ If you are using external speakers plugged into the 3.5 mm port skip this sectio
 
 ## Keyboard Configuration
 
-1. 
+There are two parts to the next section, the first is controlling the volume with the keyboard, you can skip this if using external speakers (not USB).  The second part is for turning off the screen.
+
+### Volume Configuration
+
+1. Edit/Create the following file:
+
+       sudo nano /etc/triggerhappy/triggers.d/audio.conf
+       
+2. And add the following.
+
+       KEY_VOLUMEUP    1      /usr/bin/amixer -c 1 -- set PCM 3+
+       KEY_VOLUMEDOWN  1      /usr/bin/amixer -c 1 -- set PCM 3-
+       KEY_MUTE        1      /usr/bin/amixer -c 1 -- set PCM toggle
+       
+3. Then add the following to the end of .bashrc.
+
+       nano .bashrc
+       
+       sudo thd --daemon --triggers /etc/triggerhappy/triggers.d/ /dev/input/event*
+      
+4. Then reboot, once restared you will be able to controll the volume using the volume up, volume down and mute buttons.
+
+### Turning on and off the screen
+
+
