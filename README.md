@@ -15,7 +15,7 @@ Here are a list of parts you'll need, some of these things can be obtained at Mi
 1. A Raspberry Pi 4 with at least 4 Gb of RAM (8 Gb works too if you'd like): https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X or Microcenter: https://www.microcenter.com/product/609038/raspberry-pi-4-model-b-4gb-ddr4
 2. Raspberry Pi 7 inch touchscreen: https://www.amazon.com/Raspberry-Pi-7-Touchscreen-Display/dp/B0153R2A9I or Microcenter: https://www.microcenter.com/product/613535/raspberry-pi-7-touch-screen-lcd
 3. A high quality power supply, I like this one (you can get one with a switch for $1 more): https://www.amazon.com/CanaKit-Raspberry-Power-Supply-USB-C/dp/B07TYQRXTK or with switch: https://www.amazon.com/CanaKit-Raspberry-Power-Supply-PiSwitch/dp/B07TSFYXBC
-4. A good cooling fan, I used this one as we'll be overclocking the Pi and we will need to keep it cool: https://www.amazon.com/gp/product/B07ZV1LLWK 
+4. A good cooling fan, I used this one as the Pi will be running at around 30-50% CPU pretty much 24/7 with will be overclocked (as an optional step) and we will need to keep it cool: https://www.amazon.com/gp/product/B07ZV1LLWK 
 5. A case, I used this one because of it's large size which gives plenty of room to move around and route stuff inside: https://smarticase.com/collections/all-products/products/smartipi-touch-pro (choose the large size).  You can also add on the external micro SD card access, but this is optional.
 6. You'll also need this extra part for that case (choose the one with USB and audio jack from the drop down list): https://smarticase.com/products/usb-and-audio-jack-extender-for-smartipi-touch-pro
 7. An RTL SDR dongle: https://www.amazon.com/NooElec-NESDR-Smart-Enclosure-R820T2-Based/dp/B01HA642SW
