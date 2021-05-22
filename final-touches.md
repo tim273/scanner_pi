@@ -85,3 +85,10 @@ There are two parts to the next section, the first is controlling the volume wit
        chmod +x ~/turnO*
        
 6. Then reboot to make the change stick.
+7. On both sides of the keyboard there are a row of three buttons at a diagonal.  The button that will turn off the screen is bottom button on the right side that has two lines (the compose mail button), the button that turns on the screen is the bottom button on the left side of the screen (the back button).
+
+This concludes this tutorial, you should now have an operational scanner. 
+
+## Some Issues that Might Pop Up
+
+I've found that after a reboot the waterfall will sometimes still start, if this happens, just click on View and click Disable Spectrum & Waterfall.
